@@ -13,21 +13,21 @@ def home() :
 @app.route('/bod')
 def bod():
     return render_template("bod.html")
-@app.route('/col')
+@app.route('/colliform')
 def col():
-    return render_template("col.html")
-@app.route('/do')
+    return render_template("colliform.html")
+@app.route('/dissolvedo2')
 def do():
-    return render_template("do.html")
-@app.route('/nit')
+    return render_template("dissolvedo2.html")
+@app.route('/nitrate')
 def nit():
-    return render_template("nit.html")
-@app.route('/ph')
+    return render_template("nitrate.html")
+@app.route('/pHlevel')
 def ph():
-    return render_template("ph.html")
-@app.route('/cond')
+    return render_template("pHlevel.html")
+@app.route('/conductivity')
 def cond():
-    return render_template("cond.html")
+    return render_template("conductivity.html")
 @app.route('/analysis')
 def analysis():
     return render_template("analysis.html")
